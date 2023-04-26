@@ -80,5 +80,6 @@ class ContactForm{
 
     clearForm(){
         this.form.reset()
+        this.form.id.value = ''
     }
 }
